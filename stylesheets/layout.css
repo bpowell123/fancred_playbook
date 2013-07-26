@@ -285,8 +285,8 @@ span.line4 {
 	background-size: cover;
 	/*background: url(../images/intro-bg2.jpg) repeat fixed;*/ /*Background 2*/
 	/*background: url(../images/intro-bg3.jpg) repeat fixed;*/ /*Background 3*/
-	margin: 0 auto;
-	padding: 0;
+/*	margin: 0 auto;
+	padding: 0;*/
 	position: absolute;
 	z-index: 100;
 	width: 100%;
