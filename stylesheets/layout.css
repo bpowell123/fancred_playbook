@@ -13,7 +13,7 @@
 	#Generic Styles
 	#Intro
 	#Nav2
-	#Work
+	#plan
 	#Services
 	#Hire
 	#About
@@ -80,11 +80,80 @@ h4 {
 	margin-top: 20px;
 }
 
-p.headline {
-	font-size: 22px;
+p.headline, .quote {
+	font-size: 12px;
+	font-style: italic;
 	text-align: center;
-	margin-bottom: 50px;
-	color: #3d3d3d;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+	color: #ce442b;
+}
+
+p.headline {
+	font-weight: bold;
+}
+
+p.quote {
+
+}
+
+p.contentp {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+p.contentc {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.fanfive {
+	background-image: url(../images/fancred_five.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.studyhard {
+	background-image: url(../images/study_hard.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Q {
+	color:#aba397;
+	font-family: "museo-slab",serif;
+	font-size: 13px;
+	margin: 0px 0px 0px
+}
+
+.question {
+	color:#ce442b;
+	font-family: "museo-slab",serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-shadow:1px 1px #ded9cf;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.answer {
+	font-size: 16px;
+	width: 375px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#plan3 span.line3 {
+	margin-bottom: 5px;
 }
 
 
@@ -96,12 +165,29 @@ body {
 	background: url(../images/bg.png) repeat;
 }
 
+.container {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .dotted-bar {
 	background: url(../images/dotted-bg.png) repeat;
 	width: 100%;
-	height: 57px;
+	height: 108px;
 	position: relative;
 	z-index: 600;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.dotted-bar ul li {
+	display: inline;
+	padding: 40px;
+	top: 20px;
 }
 
 h2 img {
@@ -119,21 +205,21 @@ span.line {
 }
 
 span.line2 {
-	background: #6f6f6f;
-	width: 358px;
-	height: 1px;
+	background: #ded9cf;
+	width: 150px;
+	height: 4px;
 	display: inline-block;
 	margin-bottom: 14px;
-	margin-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 span.line3 {
-	background: #6f6f6f;
+	background: #ded9cf;
 	width: 330px;
 	height: 1px;
 	display: inline-block;
 	margin-bottom: 14px;
-	margin-right: 15px;
 }
 
 span.line4 {
@@ -161,7 +247,7 @@ span.line4 {
 .top {
 	background: url(../images/top.png) no-repeat;
 	width: 223px;
-	height: 54px;
+	height: 34px;
 	top: 6px;
 	position: relative;
 	margin: auto;
@@ -169,7 +255,7 @@ span.line4 {
 }
 
 .top:hover {
-	background-position: 0 -54px;
+	background-position: 0 -34px;
 }
 
 
@@ -187,7 +273,7 @@ span.line4 {
 
 #intro {
 	width: 100%;
-	height: 650px;
+	height: 550px;
 	text-align: center;
 }
 
@@ -204,7 +290,7 @@ span.line4 {
 	position: absolute;
 	z-index: 100;
 	width: 100%;
-	height: 650px;
+	height: 550px;
 }
 
 nav {
@@ -353,7 +439,7 @@ span.logotext {
 	background: #e6e2d9;
 	width: 100%;
 	height: 54px;
-	margin-top: -34px;
+	margin-top: -54px;
 	text-align: center;
 	position: relative;
 	z-index: 500;
@@ -398,14 +484,51 @@ span.logotext {
 
 
 
-/* #Work
+/* #Plan
 ================================================== */
 
-#work {
+#plan {
 	background: url(../images/bg.png) repeat;
 	position: relative;
 	z-index: 300;
 	padding: 80px 0 70px 0;
+}
+
+#plan1, #plan2, #plan3, #plan4 {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 60px 0 10px 0;
+}
+
+img.first {
+	padding-top: 120px;
+}
+
+.nav_plan {
+	position: fixed;
+	display: block;
+	top: 75px;
+	left: 86%;
+	/*visibility: hidden;*/
+}
+
+.nav_plan a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav_plan li {
+	background-image: url(../images/side_nav_sprite.png);
+	background-position:0px 25px;
+	height: 25px;
+	width: 25px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.nav_plan li:hover {
+	background-position:0px 0px;
 }
 
 .imac {
@@ -645,7 +768,7 @@ p.line2nd {
 }
 
 #contact .bg2 {
-	background: url(../images/intro-bg.jpg) 0 0 repeat fixed;
+	background: url(../images/bg.png) 0 0 repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -786,7 +909,7 @@ p.line2nd {
 		}
 	
 	
-		span.line, span.line2, span.line3, span.line4 {
+		span.line, span.line4 {
 			display: none;
 		}
 		
@@ -870,6 +993,14 @@ p.line2nd {
 		#contact .bg2 {
 			height: 1130px;
 		}
+
+		.dotted-bar ul li {
+			padding: 30px;
+		}
+
+		img.first {
+			padding-top: 20px;
+		}
 		
 		
 	}
@@ -939,6 +1070,10 @@ p.line2nd {
 
 		.nav2 img {
 			padding: 10px 0px 0px 80px;
+		}
+
+		img.first {
+			padding-top: 20px;
 		}
 	}
 

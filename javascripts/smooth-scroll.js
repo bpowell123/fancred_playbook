@@ -14,7 +14,7 @@ $(document).ready(function() {
     		if (ios) nav2.hide();
 	        $('html,body').animate({scrollTop:scrollTarget}, 1500, function(evt) {
 		    	if (ios) {
-		    		nav2.css({position:'absolute', top:scrollTarget + 34});
+		    		nav2.css({position:'absolute', top:scrollTarget + 54});
 		    		var nav2clone = $(".nav2")
 		    		nav2clone.show();
 		    	}
@@ -28,7 +28,7 @@ $(document).ready(function() {
       			nav2 = $(".nav2");
     		if(intro.height() <= nav2.position().top)
     		{
-       			nav2.css({position:'fixed', top:'34px'});
+       			nav2.css({position:'fixed', top:'54px'});
        			nav2.show();
        		}
        		else
