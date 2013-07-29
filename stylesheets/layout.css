@@ -97,7 +97,7 @@ p.quote {
 
 }
 
-p.contentp {
+p.contentl {
 	text-align: left;
 	padding-bottom: 10px;
 }
@@ -109,8 +109,7 @@ p.contentc {
 	margin-right: auto;
 }
 
-p.fanfive {
-	background-image: url(../images/fancred_five.png);
+p.fanfive, p.studyhard, p.start_building, p.drafting, p.some_things, p.aquisition, p.increase_community {
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
@@ -118,13 +117,32 @@ p.fanfive {
 	margin-right: auto;
 }
 
+p.fanfive {
+	background-image: url(../images/fancred_five.png);
+}
+
 p.studyhard {
 	background-image: url(../images/study_hard.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+}
+
+p.start_building {
+	background-image: url(../images/start_building.png);
+}
+
+p.drafting {
+	background-image: url(../images/drafting.png);
+}
+
+p.some_things {
+	background-image: url(../images/some_things.png);
+}
+
+p.aquisition {
+	background-image: url(../images/aquisition.png);
+}
+
+p.increase_community {
+	background-image: url(../images/increase_community.png);
 }
 
 .Q {
@@ -368,6 +386,7 @@ span.logotext {
 	text-align: center;
 	position: fixed;
 	z-index: 150;
+	left: -25px;
 }
 
 .social {
@@ -466,7 +485,8 @@ span.logotext {
 }
 
 .nav2 img {
-	padding: 10px 0px 0px 80px;
+	padding: 10px 0px 0px;
+	left: 86%;
 	}
 
 .nav2 a:visited {
@@ -576,10 +596,48 @@ p.proj-desc {
 
 
 
-/* #Services
+/* #Recruit
 ================================================== */
 
-#services {
+#recruit {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 80px 0 70px 0;
+}
+
+#recruit1, #recruit2, #recruit3, #recruit4 {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 60px 0 10px 0;
+}
+
+img.serv-icon {
+	-webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+}
+
+img.serv-icon:hover {
+	opacity: 0.7;
+} 
+
+p.serv {
+	font-size: 14px;
+	margin-top: 20px;
+	color: #6d6d6d;
+}
+
+/* #Schedule
+================================================== */
+
+#schedule {
 	background: url(../images/bg.png) repeat;
 	position: relative;
 	z-index: 300;
@@ -649,10 +707,10 @@ p.serv {
 }
 
 
-/* #About
+/* #Engage
 ================================================== */
 
-#about {
+#engage {
 	background: url(../images/bg.png) repeat;
 	position: relative;
 	z-index: 300;
