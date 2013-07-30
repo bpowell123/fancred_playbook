@@ -109,7 +109,7 @@ p.contentc {
 	margin-right: auto;
 }
 
-p.fanfive, p.studyhard, p.start_building, p.drafting, p.some_things, p.aquisition, p.increase_community, p.after_draft, p.content_king, p.use_fancred, p.check_calendar, p.fancred_manager {
+p.fanfive, p.studyhard, p.start_building, p.drafting, p.some_things, p.aquisition, p.increase_community, p.after_draft, p.content_king, p.use_fancred, p.check_calendar, p.fancred_manager, p.help_us {
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
@@ -163,6 +163,10 @@ p.check_calendar {
 
 p.fancred_manager {
 	background-image: url(../images/fancred_manager.png);
+}
+
+p.help_us {
+	background-image: url(../images/help_us.png);
 }
 
 .Q {
@@ -665,6 +669,13 @@ p.serv {
 	text-align: center;
 }
 
+#schedule1, #schedule2, #schedule3, #schedule4 {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 60px 0 10px 0;
+}
+
 img.serv-icon {
 	-webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s;
@@ -735,6 +746,13 @@ p.serv {
 	position: relative;
 	z-index: 300;
 	padding: 90px 0 100px 0;
+}
+
+#engage1, #engage2, #engage3, #engage4 {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 60px 0 10px 0;
 }
 
 .last_tweets {
@@ -835,6 +853,38 @@ p.line2nd {
 }
 
 
+/* #Contact2
+================================================== */
+
+#contact2 {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 90px 0 70px 0;
+	text-align: center;
+}
+
+#contact21, #contact22, #contact23, #contact24 {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 60px 0 10px 0;
+}
+
+#brent {
+	margin-top: -16px;
+}
+
+/* #footer
+================================================== */
+
+#footer {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 90px 0 70px 0;
+	text-align: center;
+}
 
 /* #Contact
 ================================================== */
