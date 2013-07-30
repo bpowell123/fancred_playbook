@@ -109,7 +109,7 @@ p.contentc {
 	margin-right: auto;
 }
 
-p.fanfive, p.studyhard, p.start_building, p.drafting, p.some_things, p.aquisition, p.increase_community {
+p.fanfive, p.studyhard, p.start_building, p.drafting, p.some_things, p.aquisition, p.increase_community, p.after_draft {
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
@@ -143,6 +143,10 @@ p.aquisition {
 
 p.increase_community {
 	background-image: url(../images/increase_community.png);
+}
+
+p.after_draft {
+	background-image: url(../images/after_draft.png);
 }
 
 .Q {
@@ -521,7 +525,7 @@ span.logotext {
 	padding: 60px 0 10px 0;
 }
 
-img.first {
+.first {
 	padding-top: 120px;
 }
 
@@ -1056,7 +1060,7 @@ p.line2nd {
 			padding: 30px;
 		}
 
-		img.first {
+		.first {
 			padding-top: 20px;
 		}
 		
@@ -1130,7 +1134,7 @@ p.line2nd {
 			padding: 10px 0px 0px 80px;
 		}
 
-		img.first {
+		.first {
 			padding-top: 20px;
 		}
 	}
