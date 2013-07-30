@@ -109,7 +109,7 @@ p.contentc {
 	margin-right: auto;
 }
 
-p.fanfive, p.studyhard, p.start_building, p.drafting, p.some_things, p.aquisition, p.increase_community, p.after_draft {
+p.fanfive, p.studyhard, p.start_building, p.drafting, p.some_things, p.aquisition, p.increase_community, p.after_draft, p.content_king, p.use_fancred, p.check_calendar, p.fancred_manager {
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
@@ -147,6 +147,22 @@ p.increase_community {
 
 p.after_draft {
 	background-image: url(../images/after_draft.png);
+}
+
+p.content_king {
+	background-image: url(../images/content_king.png);
+}
+
+p.use_fancred {
+	background-image: url(../images/use_fancred.png);
+}
+
+p.check_calendar {
+	background-image: url(../images/check_calendar.png);
+}
+
+p.fancred_manager {
+	background-image: url(../images/fancred_manager.png);
 }
 
 .Q {
