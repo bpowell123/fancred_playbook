@@ -846,7 +846,7 @@ span.logotext {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  width: 960px;
+  width: 100%;
 }
 .nav2 .container ul {
   display: inline-block;
@@ -855,7 +855,7 @@ span.logotext {
 .nav2 .container ul li {
   display: inline-block;
   line-height: 31px;
-  margin-right: 50px;
+  margin-right: 5px;
   width: 100px;
 }
 .nav2 .container ul li:last-child {
@@ -1352,6 +1352,10 @@ p.line2nd {
 			max-width: 100%;
 			height: auto;
 		}
+    
+    .nav2 .container ul li#nav2logo {
+      width: 40px;
+    }
 
 	}
 
