@@ -387,66 +387,6 @@ body {
 .navigation li:last-child {
   margin-right: 0;
 }
-.sticky-navigation {
-  background: rgba(239, 235, 226, 0.95);
-  border-bottom: 1px solid #ded9cf;
-  display: block;
-  left: 0;
-  padding: 9px 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  visibility: hidden;
-  z-index: 1;
-}
-.sticky-navigation .container {
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  width: 960px;
-}
-.sticky-navigation .container ul {
-  display: inline-block;
-  margin: 0 auto;
-}
-.sticky-navigation .container ul li {
-  display: inline-block;
-  line-height: 31px;
-  margin-right: 50px;
-  width: 100px;
-}
-.sticky-navigation .container ul li:last-child {
-  margin-right: 0;
-}
-.sticky-navigation .container ul li a {
-  color: #aba397;
-  font: 700 13px 'museo-slab', serif;
-  padding: 9px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.sticky-navigation .container ul li a:hover {
-  color: #ce442b;
-  text-shadow: 1px 1px 0px #aba397;
-}
-.sticky-navigation .container ul li a[href='#apply'] {
-  background-color: #ce442b;
-  border-radius: 3px;
-  color: #ffffff;
-}
-.sticky-navigation .container ul li a[href='#apply']:hover {
-  color: #ffffff;
-  text-shadow: none;
-}
-.sticky-navigation .container .back-to-top {
-  background: url('../img/f-logo-faded.png') no-repeat top right;
-  display: block;
-  height: 33px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 33px;
-}
 .section {
   margin: 0 auto 60px;
   position: relative;
@@ -808,7 +748,7 @@ nav a {
 	text-transform: uppercase;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 	filter: dropshadow(color=rgba(0, 0, 0, 0.5), offx=1, offy=1);
-	
+
 	-webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
@@ -891,6 +831,67 @@ span.logotext {
 ================================================== */
 
 .nav2 {
+  background: rgba(239, 235, 226, 0.95);
+  border-bottom: 1px solid #ded9cf;
+  display: block;
+  left: 0;
+  padding: 9px 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  z-index: 9999999999;
+}
+.nav2 .container {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 960px;
+}
+.nav2 .container ul {
+  display: inline-block;
+  margin: 0 auto;
+}
+.nav2 .container ul li {
+  display: inline-block;
+  line-height: 31px;
+  margin-right: 50px;
+  width: 100px;
+}
+.nav2 .container ul li:last-child {
+  margin-right: 0;
+}
+.nav2 .container ul li a {
+  color: #aba397;
+  font: 700 13px 'museo-slab', serif;
+  padding: 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav2 .container ul li a:hover {
+  color: #ce442b;
+  text-shadow: 1px 1px 0px #aba397;
+}
+.nav2 .container ul li a[href='#apply'] {
+  background-color: #ce442b;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.nav2 .container ul li a[href='#apply']:hover {
+  color: #ffffff;
+  text-shadow: none;
+}
+.nav2 .container .back-to-top {
+  background: url('../img/f-logo-faded.png') no-repeat top right;
+  display: block;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 33px;
+}
+
+/*.nav2 {
 	background: #e6e2d9;
 	width: 100%;
 	height: 54px;
@@ -909,7 +910,7 @@ span.logotext {
 	padding: 0px 18px 0 18px;
 	padding-top: 0px;
 	display: inline-block;
-	
+
 	-webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
@@ -935,8 +936,8 @@ span.logotext {
 
 .nav2 ul li {
 	display: inline;
-	
-}
+
+}*/
 
 
 
@@ -1062,7 +1063,7 @@ img.serv-icon {
 
 img.serv-icon:hover {
 	opacity: 0.7;
-} 
+}
 
 p.serv {
 	font-size: 14px;
@@ -1101,7 +1102,7 @@ img.serv-icon {
 
 img.serv-icon:hover {
 	opacity: 0.7;
-} 
+}
 
 p.serv {
 	font-size: 14px;
@@ -1211,7 +1212,7 @@ p.line2nd {
 	background: #e7e7e7;
 	width: 100%;
 	height: 25px;
-	
+
 	-webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
@@ -1306,29 +1307,29 @@ p.line2nd {
 
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 1024px) {
-	
+
 		.top-bar, nav, .title {
 			position: relative;
 		}
-		
+
 		nav {
 			margin: 0;
 			padding-top: 60px;
 		}
-		
+
 		.title {
 			margin-top: 0px;
 		}
-	
-	
+
+
 		span.line, span.line4 {
 			display: none;
 		}
-		
+
 		.featured-item {
 			display: none;
 		}
-		
+
 		.rslides {
 			position: relative;
 			list-style: none;
@@ -1338,7 +1339,7 @@ p.line2nd {
 
 			top: 300px;
 		}
-		
+
 		.rslides li {
 			position: absolute;
 			display: none;
@@ -1351,12 +1352,12 @@ p.line2nd {
 			max-width: 100%;
 			height: auto;
 		}
-		
+
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		
+
 		h1.smallerh1 {
 			font-size: 26px;
 			font-weight: 400;
@@ -1366,11 +1367,11 @@ p.line2nd {
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		
+
 		h1 {
 			font-size: 80px;
 		}
-		
+
 		h1.smallh1 {
 			font-size: 40px;
 			font-weight: 600;
@@ -1382,31 +1383,31 @@ p.line2nd {
 			font-weight: 400;
 			line-height: normal;
 		}
-		
-		
-		.nav2 a {
+
+
+		/*.nav2 a {
 			padding: 0px 8px 0 8px;
 		}
 
 		.nav2 img {
 			padding: 10px 0px 0px 80px;
 		}
-		
-		
+*/
+
 		.portfolio {
 			text-align: center;
 		}
-		
-		
+
+
 		.experience h3 {
 			margin-top: 40px;
 		}
-		
+
 		.skills h3 {
 			margin-top: 40px;
 		}
-		
-		
+
+
 		#contact .bg2 {
 			height: 1130px;
 		}
@@ -1418,17 +1419,17 @@ p.line2nd {
 		.first {
 			padding-top: 20px;
 		}
-		
-		
+
+
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+
 		.title {
 			margin-top: 0px;
 		}
-	
+
 		span.logo {
 			display: none;
 		}
@@ -1436,32 +1437,32 @@ p.line2nd {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		
+
 		nav {
 			padding-top: 25px;
 		}
-		
+
 		nav a {
 			padding: 5px 8px 5px 8px;
 		}
-		
+
 		span.logo {
 			display: none;
 		}
-		
+
 		#intro {
 			height: 450px;
 		}
-		
+
 		.title {
 			margin-top: 0px;
 		}
-		
+
 		h1 {
 			font-size: 40px;
 			margin-bottom: 8px;
 		}
-		
+
 		h1.smallh1 {
 			font-size: 30px;
 			font-weight: 600;
@@ -1475,19 +1476,19 @@ p.line2nd {
 			margin-bottom: 20px;
 		}
 
-		
+
 		.social ul li {
 			display: inline;
 			margin: 0 3px 0 3px;
 		}
-		
-		.nav2 a {
+
+		/*.nav2 a {
 			padding: 0px 10px 0 10px;
 		}
 
 		.nav2 img {
 			padding: 10px 0px 0px 80px;
-		}
+		}*/
 
 		.first {
 			padding-top: 20px;
