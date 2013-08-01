@@ -224,10 +224,6 @@ p.help_us {
     display:block;
 }
 
-.slider-wrapper {
-  min-height: 500px;
-}
-
 
 
 /* #Fancred Styles
@@ -1377,7 +1373,7 @@ p.line2nd {
 		}
     
     .nav2 .container ul li#nav2logo {
-      width: 40px;
+      visibility: hidden;
     }    
 
     .question {
