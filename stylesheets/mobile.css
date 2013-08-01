@@ -1,0 +1,85 @@
+body {
+  -webkit-text-size-adjust: 100%;
+}
+.cover {
+  background: url('../img/mobile/cover.jpg') no-repeat center center;
+  height: 493px;
+  padding-top: 20px;
+}
+.cover .inner {
+  width: 320px;
+}
+.cover .inner .divider {
+  margin-bottom: 20px;
+}
+.cover .inner h1 {
+  background: url('../img/mobile/title.png') no-repeat;
+  height: 101px;
+  margin-bottom: 15px;
+  width: 285px;
+}
+.cover .inner .subtitle {
+  width: 265px;
+}
+.cover .inner .button-container {
+  margin-bottom: 10px;
+}
+.cover .inner .button-container .arrow {
+  display: none;
+}
+.navigation {
+  padding: 15px 0;
+}
+.navigation li {
+  margin-right: 6px;
+}
+.navigation li a {
+  text-transform: none;
+}
+.sticky-navigation .container {
+  background: none;
+  width: 100%;
+}
+.sticky-navigation .container ul li {
+  margin-right: 6px;
+}
+.sticky-navigation .container ul li a {
+  text-transform: none;
+}
+.sticky-navigation .container .back-to-top {
+  display: none;
+}
+.section {
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+}
+#program .lead-in {
+  font-size: 13px;
+  padding: 0 30px;
+}
+#program .screenshot {
+  width: 100%;
+}
+#program .details {
+  font: 500 13px/24px 'museo-slab', serif;
+  padding: 0 10px;
+  width: auto;
+}
+#program .details h3 {
+  width: 100%;
+}
+#apply .submit {
+  font-size: 13px;
+  padding: 0 10px;
+  width: auto;
+}
+#apply .button-container .arrow {
+  display: none;
+}
+.footer {
+  width: 265px;
+}
+.back-to-top-container {
+  display: none !important;
+}
